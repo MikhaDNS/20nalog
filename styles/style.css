@@ -5,11 +5,12 @@ padding: 0;
   width: 100%;
   background-color: #c6c065;
 }
-.adv{
-  background:#4cb8ff;
-height:280px;
-  width:100%;
+.cvb{
+  float:left;
+  height: 320px;
+  width: 100%;
 }
+
 .right {
    float: right;
   height:100px;
