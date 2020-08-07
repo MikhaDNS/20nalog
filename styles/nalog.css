@@ -1,0 +1,81 @@
+html, body {
+    padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: #c6c065 url(images/background.png);
+}
+.appname{
+  font-size:2vw;
+  color: #b7a381;
+  text-align: left;
+  margin: 10px;
+  margin-bottom: 35px;
+font-weight: bold;
+}
+.content-special{
+  font-size:1.7vw;
+  color: #005de2;
+  text-align: left;
+  font-weight: bold;
+  margin: 10px 20px;
+}
+.application{
+display:inline-block;
+  width:100%;
+  background: #fff;
+         padding: 32px;
+         border-radius: 10px; 
+         box-shadow: 0 4px 16px #ccc; 
+         font-family: sans-serif; 
+         letter-spacing: 1px; 
+  margin: 20px 20px;
+  
+  
+}
+.razdel{
+  font-size:3vw;
+  color: #5f3f7e;
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 25px;
+font-weight: bold;
+}
+.appc{
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+.rez{ 
+font-size:4vw;
+  height: 4em;
+  width: 4em;
+  margin: 10% auto;
+  text-align: center;
+}
+input {
+	width: 100px;
+	font-size: 1.7vw;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+border-radius: 8px;
+margin: 2.5px 5px;
+}
+button.button7 {
+  font-size: 2vw;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+} 
+button.button7:hover { background: rgb(53, 167, 110); }
+button.button7:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}

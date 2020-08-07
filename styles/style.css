@@ -1,0 +1,121 @@
+html, body {
+padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #c6c065;
+}
+.adv{
+  background:#4cb8ff;
+height:280px;
+  width:100%;
+}
+.right {
+   float: right;
+  height:100px;
+  margin: 20px;
+display: flex;
+  align-items: right;
+background: #7183ff;
+}
+.left {
+   float: left;
+  height:100px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  background: #fcc;
+}
+h1 {
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 3vw;
+  padding: 3px;
+  border: 5px solid #000;
+  border-radius: 5px;
+}
+p.text{
+  font-family: ‘Raleway’,sans-serif;
+  font-size: 3vw; 
+  font-weight: bold; 
+  line-height: 72px; 
+  margin: 0 0 24px; 
+  text-align: center; 
+  text-transform: uppercase;
+  color: white !important;
+text-shadow: 1px 0 1px #000, 
+0 1px 1px #000, 
+-1px 0 1px #000, 
+0 -1px 1px #000;
+}
+
+.header {
+    background-image: url(images/person.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    text-align: center;
+    line-height: 100px;
+    font-size: 3vw;
+}
+.lef{
+height: auto;
+  width: auto;
+  float:left;
+  margin: 20px;
+}
+.rig{
+  height: auto;
+  width: auto;
+  float:right;
+  margin: 20px;
+}
+
+a.botr{
+  background:#fff;
+  width:225px;
+  display:block;
+  height:33px;
+  padding-top:19px;
+  border:1px solid #000;
+   margin: 20px auto;
+  font-family: 'Dosis', sans;
+  font-size: 18px;
+  font-weight:200;
+  color:#000;
+  text-transform:uppercase;
+  text-decoration:none;
+  text-align:center;
+  opacity:.8;
+  letter-spacing: 1px;
+    -webkit-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+        transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+}
+a.botr:hover{
+  width:225px;
+  height:33px;
+  padding-top:19px;
+  border:1px solid teal;
+  margin: 20px auto;
+  opacity:1;
+  letter-spacing: 4px;
+  -webkit-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+   -moz-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+     -o-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+        transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+}
+
+
+footer {
+  
+font-size: 1.1rem;
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    color: black; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+    padding: 10px; /* Поля вокруг текста */
+    background: rgba(255,255,255,.86); /* Цвет фона */
+  text-align: center;
+   }
