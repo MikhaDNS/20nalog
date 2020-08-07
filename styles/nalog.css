@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   height: 100%;
   width: 100%;
-  background: #c6c065 url(images/background.png) no-repeat;
+  background: #c6c065 url(images/background.png);
 }
 .appname{
   font-size:2vw;
