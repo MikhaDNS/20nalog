@@ -10,23 +10,6 @@ padding: 0;
   height: 320px;
   width: 100%;
 }
-
-.right {
-   float: right;
-  height:100px;
-  margin: 20px;
-display: flex;
-  align-items: right;
-background: #7183ff;
-}
-.left {
-   float: left;
-  height:100px;
-  margin: 20px;
-  display: flex;
-  align-items: center;
-  background: #fcc;
-}
 h1 {
   display: inline-block;
   font-family: arial;
