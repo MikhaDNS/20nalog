@@ -72,10 +72,7 @@ a.botr{
   text-align:center;
   opacity:.8;
   letter-spacing: 1px;
-    -webkit-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
-   -moz-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
-     -o-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
-        transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+  transition : all 300ms cubic-bezier(0.250,0.250,0.750,0.750);
 }
 a.botr:hover{
   width:225px;
@@ -85,10 +82,7 @@ a.botr:hover{
   margin: 20px auto;
   opacity:1;
   letter-spacing: 4px;
-  -webkit-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
-   -moz-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
-     -o-transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
-        transition: all 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+transition : all 300ms cubic-bezier(0.250,0.250,0.750,0.750);
 }
 
 
