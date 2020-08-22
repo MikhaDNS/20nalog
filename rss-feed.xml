@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss 
+	xmlns:yandex="http://news.yandex.ru"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:turbo="http://turbo.yandex.ru" 
+	version="2.0">
+		<channel>
+		<title>Расчет налога 20% РФ</title>
+		<link>https://20nalog.ga</link>
+		<description>Рассчитай нлог НДС онлайн</description>
+		<language>ru</language>
+		<author>MikhaelLEE</author>
+		<yandex:analytics type="Yandex" id="66258241"/>
+		<item turbo="true">
+			<title>Калькулятор НДС</title><link>https://20nalog.ga</link><category>Официальный сайт</category>
+			<description>Сервис предоставляет бесплатные услуги по расчету налога НДС, и есть также онлайн калькулятор для ваших нужд.</description>
+				<turbo:content><![CDATA[
+					<header>
+						<h1>Калькулятор НДС</h1>
+						<figure>
+							<img src="https://20nalog.ga/icon/android-icon-72x72.png"/>
+						</figure>
+						<menu>
+							<a href="https://20nalog.ga">Главная</a>
+						</menu>
+					</header>
+						<div itemscope itemtype="http://schema.org/Rating">
+							<meta itemprop="ratingValue" content="4.9">
+							<meta itemprop="bestRating" content="5">
+						</div>
+						<p>Вы можете рассчитать налог <strong>НДС</strong> совершенно БЕСПЛАТНО. Переходи по ссылке и рассчитай свой налог НДС! Калькулятор БЕСПЛАТНЫЙ.</p>
+						<img src="https://20nalog.ga/icon/nalog.png"/>
+						<button
+							formaction="https://20nalog.ga"
+							data-background-color="#F94F60"
+							data-color="#ffffff"
+							data-turbo="false"
+							data-primary="true"
+							>
+							Рассчитать НДС сейчас!
+						</button>
+						<div data-block="widget-feedback" data-title="Обратная связь" data-stick="right">
+							<div data-type="mail" data-url="mailto:MikhaelLEE-site@yandex.ru?subject=Калькулятор%20НДС&amp;"></div>
+						</div>
+				]]></turbo:content></item></channel></rss>
