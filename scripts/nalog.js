@@ -1,5 +1,11 @@
 
-
+function discharge(){
+  $('input').val(String($('input').val().replace(/[^0-9.]/g,'')).replace(/\B(?=(\d{3})+(?!\d))/g, " "));
+}
+discharge();
+$('input').keyup(function(){
+  discharge();
+});
 function result() {
   let summ = document.getElementById("summ").value;
    
